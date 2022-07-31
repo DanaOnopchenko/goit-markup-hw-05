@@ -605,7 +605,7 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 
-  transition-property: opacity visibility;
+  transition-property: opacity, visibility;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -618,7 +618,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1) rotate(0);
+  transform: translate(-50%, -50%);
   width: 521px;
   height: 581px;
   background-color: var(--white-main-color);
@@ -631,7 +631,7 @@ img {
 }
 .backdrop.is-hidden .modal {
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.3) rotate(1turn);
+  /* transform: translate(-50%, -50%) scale(0.3) rotate(1turn); */
 }
 .modal-btn {
   position: absolute;
