@@ -22,6 +22,7 @@
   --items: 3;
   --border-color: #eeeeee;
   --icons-color: #afb1b8;
+  --animation: 5050mc;
 }
 
 body {
@@ -107,6 +108,10 @@ img {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* hover  focus */
 .nav-link:hover,
@@ -146,6 +151,10 @@ img {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--secondary-txt-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-item {
@@ -210,6 +219,10 @@ img {
   border-radius: 4px;
   border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -349,6 +362,10 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover,
 .socials-link:focus {
@@ -357,6 +374,10 @@ img {
 
 .socials-icon {
   fill: var(--icons-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
@@ -377,6 +398,10 @@ img {
   border: 1px solid var(--icons-color);
   border-radius: 4px;
   color: var(--icons-color);
+
+  transition-property: color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icons {
   fill: currentColor;
@@ -421,6 +446,10 @@ img {
 .footer-email,
 .footer-phone {
   color: var(--white-secondary-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-email:hover,
 .footer-phone:hover,
@@ -451,6 +480,10 @@ img {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--white-main-color);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon {
   fill: currentColor;
@@ -479,6 +512,10 @@ img {
   border-style: none;
   background-color: var(--bg-color-grey);
   cursor: pointer;
+
+  transition-property: color background-color box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -497,6 +534,10 @@ img {
 }
 .portfolio-card {
   display: block;
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card:hover,
